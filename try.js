@@ -60,3 +60,45 @@ switch(status){
     case 1 : console.log('เปิดไฟ'); break
     default : console.log('ไม่พบข้อมูล'); break
 }
+
+/*โปรแกรมคำนวณเลขคู่เลขคี่*/
+
+let x = 23
+
+if(x%2==0){
+    console.log('เลขคู่')
+}
+else{
+    console.log('เลขคี่')
+}
+
+/*โปรแกรมเปรียบเทียบตัวเลข*/
+
+let k = 20
+let y = 50
+
+if(k>y){
+    console.log('k มีค่ามากกว่า')
+}
+else{
+    console.log('y มีค่ามากกว่า')
+}
+
+var output = ''
+
+for(i=1;i<=3;i++){
+    output = ''
+    output += 'hello wolrd'+i
+    console.log(output)
+}
+
+console.log(typeof(i))
+
+let l = 12
+
+if(!l){
+    console.log('a is null')
+}
+else{
+    console.log('a is not null')
+}
