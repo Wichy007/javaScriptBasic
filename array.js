@@ -31,3 +31,24 @@ for(i=0;i<count;i++){
     str += colors[i] + '\n'  /*blackslach n เท่ากับขึ้นบรรทัดใหม่*/
 }
 console.log(str)
+
+colors.forEach(myData); /*call back funtion เป็นรูปแบบของ function ที่เรียกใช้ function ต่อเนื่องกัน*/
+
+function myData(item){
+    console.log(`สี ${item}`)
+};
+
+console.log(colors.join(' '))
+let str_color = colors.toString() /*เปลี่ยน array จาก object ให้กลายเป็น string*/
+console.log(typeof(colors))
+console.log(typeof(str_color))
+
+
+console.log(colors)
+colors.pop()
+console.log(colors)
+
+let point = [100,2,50,-20,54,-89,-99]
+console.log(point)
+console.log(point.sort())
+console.log(point.reverse())
