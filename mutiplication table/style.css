@@ -1,0 +1,37 @@
+#container{
+    background-color: rgb(212, 212, 212);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid aqua; */
+    justify-content: flex-start;
+    align-items: center;
+}
+#inputarea{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+#button{
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(115, 215, 232);
+    border: 0;
+    font-size: 20px;
+}
+#clearbutton{
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(252, 110, 110);
+    border: 0;
+    margin: 10px;
+    font-size: 20px;
+}
+#display{
+    font-size: 25px;
+}
