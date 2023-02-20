@@ -5,19 +5,14 @@ function findCoupleAddEqualTarget(nums, target){
         let y = ''
         for(let j = 0; j < nums.length; j++){
             y = nums[j]
-            if(i === j ){
-                continue;
-            }
+            if(i === j ){continue;}
             if(x + y === target){
-                array.push(nums.indexOf(x))
-                array.push(nums.indexOf(y))
+                array.push((nums.indexOf(x)),(nums.indexOf(y)))
                 console.log(array)
                 break;
             }
         }
-        if(x + y === target){
-            break;
-        }
+        if(x + y === target){break;}
     }
 }
 
